@@ -1,21 +1,22 @@
 import ProjectCard from "../components/ProjectCard";
+import backgroundChangerImg from "../assets/background_changer.png";
 
 const Projects = () => {
   const projects = [
     {
-      image: "https://source.unsplash.com/600x400/?laptop,code",
-      title: "GPUverse",
-      description: "Decentralized GPU rental marketplace.",
-      tech: ["React.js", "Tailwind CSS", "Ethereum", "Solidity"],
-      github: "https://github.com/your-repo",
-      live: "https://your-live-demo.com",
+      image: backgroundChangerImg,
+      title: "Background Changer",
+      description: "click any button to change background color",
+      tech: ["React.js", "Tailwind CSS", "html"],
+      github: "https://github.com/harshitjain044/background-changer-",
+      live: "https://background-changer044.netlify.app",
     },
     {
       image: "https://source.unsplash.com/600x400/?website,design",
       title: "Portfolio Website",
       description: "A modern and stylish portfolio site.",
       tech: ["React", "Framer Motion", "Tailwind CSS"],
-      github: "https://github.com/your-portfolio",
+      github: "https://github.com/harshitjain044/portfolio",
       live: "https://your-portfolio.com",
     },
   ];
