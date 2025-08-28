@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import heroImg from "../assets/image-2.jpg"; // add any sample photo here
+import { Link } from "react-router-dom"
 
 export default function Home() {
   return (
     <section className="min-h-screen flex items-center justify-center px-10 bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white">
       <div className="flex flex-col md:flex-row items-center md:space-x-12">
-        
+
         {/* Left Side - Photo */}
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -35,17 +36,21 @@ export default function Home() {
             web applications with React and Tailwind CSS.
           </p>
 
-          <motion.a
-            href="/projects"
-            whileHover={{ scale: 1.1 }}
+          <motion.div
+            whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.9 }}
-            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg "
           >
-            View My Work
-          </motion.a>
+            <Link
+              to="/projects"
+              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg"
+            >
+              View My Work
+            </Link>
+          </motion.div>
+
         </motion.div>
-        
-         
+
+
       </div>
     </section>
   );
