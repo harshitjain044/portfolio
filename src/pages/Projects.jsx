@@ -1,5 +1,6 @@
 import ProjectCard from "../components/ProjectCard";
 import backgroundChangerImg from "../assets/background_changer.png";
+import spotify_clone from "../assets/spotify_clone.png"
 
 const Projects = () => {
   const projects = [
@@ -12,12 +13,12 @@ const Projects = () => {
       live: "https://background-changer044.netlify.app",
     },
     {
-      image: "https://source.unsplash.com/600x400/?website,design",
-      title: "Portfolio Website",
-      description: "A modern and stylish portfolio site.",
-      tech: ["React", "Framer Motion", "Tailwind CSS"],
-      github: "https://github.com/harshitjain044/portfolio",
-      live: "https://your-portfolio.com",
+      image: spotify_clone,
+      title: "Spotify-clone",
+      description: " ",
+      tech: ["React", "Tailwind CSS", "node", "database"],
+      github: "https://github.com/harshitjain044/Spotify_Clone",
+      live: "https://spotifycloneharshit.netlify.app/",
     },
   ];
 
