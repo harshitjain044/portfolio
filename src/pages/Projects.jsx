@@ -1,6 +1,7 @@
 import ProjectCard from "../components/ProjectCard";
 import backgroundChangerImg from "../assets/background_changer.png";
 import spotify_clone from "../assets/spotify_clone.png"
+import todo from "../assets/todo.png"
 
 const Projects = () => {
   const projects = [
@@ -19,6 +20,13 @@ const Projects = () => {
       tech: ["React", "Tailwind CSS", "node", "database"],
       github: "https://github.com/harshitjain044/Spotify_Clone",
       live: "https://spotifycloneharshit.netlify.app/",
+    },{
+      image: todo,
+      title: "Todo Site",
+      description: "Todo Site with CRED operations ",
+      tech: ["React", "Tailwind CSS", ],
+      github: "https://github.com/harshitjain044/Todo",
+      live: "https://tod0-site.netlify.app/",
     },
   ];
 
